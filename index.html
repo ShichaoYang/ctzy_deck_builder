@@ -1,0 +1,128 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>承天之弈 TY01 组卡器</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">TY01 第一弹</p>
+        <h1>承天之弈组卡器</h1>
+      </div>
+      <div class="top-actions">
+        <button id="loadStarter" type="button">预组导入</button>
+        <button id="exportDeck" type="button">导出到剪贴板</button>
+        <button id="importDeck" type="button">从剪贴板导入</button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="library-panel" aria-label="卡牌列表">
+        <div class="filters">
+          <label class="search-field">
+            <span>搜索</span>
+            <input id="searchInput" type="search" placeholder="名称 / 称号 / 技能 / 画师 / 编号">
+          </label>
+          <div class="filter-row">
+            <label>
+              <span>势力</span>
+              <select id="factionFilter"></select>
+            </label>
+            <label>
+              <span>类别</span>
+              <select id="typeFilter"></select>
+            </label>
+            <label>
+              <span>稀有度</span>
+              <select id="rarityFilter"></select>
+            </label>
+            <label>
+              <span>休整</span>
+              <select id="costFilter"></select>
+            </label>
+            <label>
+              <span>排序</span>
+              <select id="sortSelect">
+                <option value="serial">编号</option>
+                <option value="cost">休整</option>
+                <option value="name">名称</option>
+                <option value="rarity">稀有度</option>
+              </select>
+            </label>
+          </div>
+          <div class="quick-filters" id="quickFactions"></div>
+        </div>
+
+        <div class="library-meta">
+          <span id="resultCount">0 张</span>
+          <button id="clearFilters" type="button">清空筛选</button>
+        </div>
+
+        <div id="cardGrid" class="card-grid"></div>
+      </section>
+
+      <aside class="deck-panel" id="deckPanel" aria-label="当前牌组">
+        <div class="deck-manager">
+          <label>
+            <span>牌组</span>
+            <select id="deckSelect"></select>
+          </label>
+          <button id="newDeck" type="button">新建</button>
+          <button id="deleteDeck" type="button">删除</button>
+        </div>
+
+        <div class="deck-head">
+          <div>
+            <p class="eyebrow">当前牌组</p>
+            <h2 id="deckTitle">未命名牌组</h2>
+          </div>
+          <button id="renameDeck" type="button">改名</button>
+        </div>
+
+        <div class="stats">
+          <div><strong id="deckTotal">0</strong><span>总张数</span></div>
+          <div><strong id="uniqueTotal">0</strong><span>不同卡</span></div>
+          <div><strong id="leaderTotal">0</strong><span>主帅/主公</span></div>
+        </div>
+
+        <div class="curve" id="curve"></div>
+
+        <div class="deck-tools">
+          <button id="copyDeck" type="button">复制清单</button>
+          <button id="clearDeck" type="button">清空</button>
+        </div>
+
+        <div id="deckList" class="deck-list"></div>
+      </aside>
+    </main>
+
+    <button class="mobile-deck-toggle" id="mobileDeckToggle" type="button">
+      牌组 <span id="mobileDeckCount">0</span>
+    </button>
+
+    <div class="preview" id="preview" hidden>
+      <button class="preview-close" id="closePreview" type="button">关闭</button>
+      <div class="preview-body">
+        <img id="previewImage" alt="">
+        <div class="preview-copy">
+          <p id="previewSerial"></p>
+          <h3 id="previewName"></h3>
+          <p id="previewMeta"></p>
+          <p id="previewSkill"></p>
+          <p id="previewUpgrade"></p>
+          <p id="previewFlavor"></p>
+          <button id="previewAdd" type="button">加入牌组</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
+
