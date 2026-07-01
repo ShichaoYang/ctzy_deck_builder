@@ -45,7 +45,7 @@ const leaders = new Set(["主帅"]);
 init();
 
 async function init() {
-  const response = await fetch("data/cards.json");
+  const response = await fetch("data/cards.json?v=20260701c");
   const payload = await response.json();
   state.cards = payload.cards;
   state.extras = payload.extras || [];
@@ -546,6 +546,7 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
+
 
 
 

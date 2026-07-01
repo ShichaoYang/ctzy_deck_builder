@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import math
@@ -99,37 +99,13 @@ def main():
         )
 
     extras = []
-    for source in (NORMAL_IMAGE_DIR, FOIL_IMAGE_DIR):
-        if not source.exists():
-            continue
-        for file in sorted(source.glob("TY01-LS-*.png")):
-            code = file.stem
-            if code in used_images:
-                continue
-            shutil.copy2(file, CARD_DIR / file.name)
-            extras.append(
-                {
-                    "id": code,
-                    "serial": code,
-                    "name": code,
-                    "title": "额外素材",
-                    "rarity": "素材",
-                    "faction": "通用",
-                    "type": "素材",
-                    "cost": 0,
-                    "skill": "",
-                    "artist": "",
-                    "image": f"assets/cards/{file.name}",
-                    "imageKind": source.name,
-                }
-            )
 
     payload = {
         "source": {
             "workbook": str(WORKBOOK),
             "imageFolder": str(NORMAL_IMAGE_DIR),
             "generatedAt": pd.Timestamp.now().isoformat(timespec="seconds"),
-            "notes": "TY01-217 普通图缺失，若闪图存在则使用闪图作为缺图兜底。TY01-LS 图片作为额外素材显示。",
+            "notes": "TY01-217 普通图缺失时可手动指定替换图。",
         },
         "cards": cards,
         "extras": extras,
@@ -141,3 +117,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -3,7 +3,7 @@
     "workbook": "C:\\Users\\yangshichao\\Documents\\承天之弈svn\\第一弹\\牌表-录入需求\\第一弹牌表录入校准版4.21.xlsx",
     "imageFolder": "C:\\Users\\yangshichao\\Documents\\临时暂存文件夹\\集换社资料\\TY01\\普",
     "generatedAt": "2026-07-01T16:06:07",
-    "notes": "TY01-217 普通图缺失，若闪图存在则使用闪图作为缺图兜底。TY01-LS 图片作为额外素材显示。"
+    "notes": "TY01-217 普通图缺失时可手动指定替换图。"
   },
   "cards": [
     {
@@ -4998,90 +4998,5 @@
       "imageKind": "闪"
     }
   ],
-  "extras": [
-    {
-      "id": "TY01-LS-001",
-      "serial": "TY01-LS-001",
-      "name": "TY01-LS-001",
-      "title": "额外素材",
-      "rarity": "素材",
-      "faction": "通用",
-      "type": "素材",
-      "cost": 0,
-      "skill": "",
-      "artist": "",
-      "image": "assets/cards/TY01-LS-001.png",
-      "imageKind": "普"
-    },
-    {
-      "id": "TY01-LS-002",
-      "serial": "TY01-LS-002",
-      "name": "TY01-LS-002",
-      "title": "额外素材",
-      "rarity": "素材",
-      "faction": "通用",
-      "type": "素材",
-      "cost": 0,
-      "skill": "",
-      "artist": "",
-      "image": "assets/cards/TY01-LS-002.png",
-      "imageKind": "普"
-    },
-    {
-      "id": "TY01-LS-003",
-      "serial": "TY01-LS-003",
-      "name": "TY01-LS-003",
-      "title": "额外素材",
-      "rarity": "素材",
-      "faction": "通用",
-      "type": "素材",
-      "cost": 0,
-      "skill": "",
-      "artist": "",
-      "image": "assets/cards/TY01-LS-003.png",
-      "imageKind": "普"
-    },
-    {
-      "id": "TY01-LS-004",
-      "serial": "TY01-LS-004",
-      "name": "TY01-LS-004",
-      "title": "额外素材",
-      "rarity": "素材",
-      "faction": "通用",
-      "type": "素材",
-      "cost": 0,
-      "skill": "",
-      "artist": "",
-      "image": "assets/cards/TY01-LS-004.png",
-      "imageKind": "普"
-    },
-    {
-      "id": "TY01-LS-005",
-      "serial": "TY01-LS-005",
-      "name": "TY01-LS-005",
-      "title": "额外素材",
-      "rarity": "素材",
-      "faction": "通用",
-      "type": "素材",
-      "cost": 0,
-      "skill": "",
-      "artist": "",
-      "image": "assets/cards/TY01-LS-005.png",
-      "imageKind": "普"
-    },
-    {
-      "id": "TY01-LS-006",
-      "serial": "TY01-LS-006",
-      "name": "TY01-LS-006",
-      "title": "额外素材",
-      "rarity": "素材",
-      "faction": "通用",
-      "type": "素材",
-      "cost": 0,
-      "skill": "",
-      "artist": "",
-      "image": "assets/cards/TY01-LS-006.png",
-      "imageKind": "普"
-    }
-  ]
+  "extras": []
 }
