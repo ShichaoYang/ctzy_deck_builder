@@ -86,7 +86,7 @@ function fillFilters() {
   fillSelect(els.faction, "全部势力", unique("faction"));
   fillSelect(els.type, "全部类别", unique("type"));
   fillSelect(els.rarity, "全部稀有度", unique("rarity"));
-  fillSelect(els.cost, "全部休整", unique("cost").sort((a, b) => Number(a) - Number(b)));
+  fillSelect(els.cost, "全部休整", unique("cost").sort((a, b) => Number(a) - Number(b)), formatCostOption);
 
   els.quickFactions.innerHTML = "";
   unique("faction").forEach((faction) => {
@@ -101,14 +101,18 @@ function fillFilters() {
   });
 }
 
-function fillSelect(select, label, values) {
+function fillSelect(select, label, values, formatter = (value) => value) {
   select.innerHTML = `<option value="">${label}</option>`;
   values.forEach((value) => {
     const option = document.createElement("option");
     option.value = value;
-    option.textContent = value === "0" || value === 0 ? "无休整" : `休整${value}`;
+    option.textContent = formatter(value);
     select.append(option);
   });
+}
+
+function formatCostOption(value) {
+  return value === "0" || value === 0 ? "无休整" : `休整${value}`;
 }
 
 function unique(key) {
@@ -542,5 +546,6 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
+
 
 
