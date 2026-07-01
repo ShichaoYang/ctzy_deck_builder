@@ -181,15 +181,16 @@ function renderGrid() {
 }
 
 function cardTile(card) {
+  const name = cardDisplayName(card);
   const inDeck = activeCards()[card.id] || 0;
   return `
     <article class="card-tile">
       <div class="card-art">
-        ${card.image ? `<img src="${card.image}" alt="${escapeHtml(card.name)}">` : `<div class="missing-art">暂无图片</div>`}
-        <button type="button" data-preview="${card.id}" aria-label="查看 ${escapeHtml(card.name)}"></button>
+        ${card.image ? `<img src="${card.image}" alt="${escapeHtml(name)}">` : `<div class="missing-art">暂无图片</div>`}
+        <button type="button" data-preview="${card.id}" aria-label="查看 ${escapeHtml(name)}"></button>
       </div>
       <div class="card-info">
-        <h3>${escapeHtml(card.name)}</h3>
+        <h3>${escapeHtml(name)}</h3>
         <p>${escapeHtml(card.serial)} · ${escapeHtml(card.faction)} · ${escapeHtml(card.type)} · ${escapeHtml(card.rarity)}</p>
         <p>${card.cost ? `休整${card.cost}` : "无休整"}</p>
         <div class="card-actions">
@@ -209,7 +210,7 @@ function addCard(id, amount = 1) {
   const max = leaders.has(card.type) ? 1 : 3;
   const next = Math.min(max, current + amount);
   if (next === current) {
-    showToast(`${card.name} 已达到上限`);
+    showToast(`${cardDisplayName(card)} 已达到上限`);
     return;
   }
   cards[id] = next;
@@ -269,11 +270,12 @@ function deckEntries(deck = activeDeck()) {
 }
 
 function deckRow({ card, qty }) {
+  const name = cardDisplayName(card);
   return `
     <div class="deck-row">
-      ${card.image ? `<img src="${card.image}" alt="${escapeHtml(card.name)}">` : `<div></div>`}
+      ${card.image ? `<img src="${card.image}" alt="${escapeHtml(name)}">` : `<div></div>`}
       <div>
-        <h3>${escapeHtml(card.name)}</h3>
+        <h3>${escapeHtml(name)}</h3>
         <p>${escapeHtml(card.id)} · ${escapeHtml(card.faction)} · ${escapeHtml(card.type)} · ${card.cost ? `休整${card.cost}` : "无休整"}</p>
       </div>
       <div class="qty">
@@ -434,7 +436,7 @@ function deckText() {
   if (!entries.length) return "";
   return [
     activeDeck().title,
-    ...entries.map(({ card, qty }) => `${qty} ${card.id} ${card.name} (${card.faction}/${card.type}/${card.rarity})`),
+    ...entries.map(({ card, qty }) => `${qty} ${card.id} ${cardDisplayName(card)} (${card.faction}/${card.type}/${card.rarity})`),
   ].join("\n");
 }
 
@@ -443,9 +445,9 @@ function openPreview(id) {
   if (!card) return;
   state.previewCard = card;
   els.previewImage.src = card.image || "";
-  els.previewImage.alt = card.name;
+  els.previewImage.alt = cardDisplayName(card);
   els.previewSerial.textContent = card.serial;
-  els.previewName.textContent = `${card.title ? `${card.title} ` : ""}${card.name}`;
+  els.previewName.textContent = cardDisplayName(card);
   els.previewMeta.textContent = `${card.faction} · ${card.type} · ${card.rarity} · ${card.cost ? `休整${card.cost}` : "无休整"} · ${card.artist || "未知画师"}`;
   els.previewSkill.textContent = card.skill || "暂无技能文本";
   els.previewUpgrade.textContent = card.upgrade ? `升级：${card.upgrade}` : "";
@@ -531,6 +533,9 @@ function restoreDecks() {
   }
 }
 
+function cardDisplayName(card) {
+  return card.title ? `${card.title}·${card.name}` : card.name;
+}
 function showToast(message) {
   els.toast.textContent = message;
   els.toast.classList.add("show");
@@ -546,6 +551,8 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
+
+
 
 
 
