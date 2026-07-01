@@ -40,7 +40,7 @@ const els = {
 
 const STORAGE_KEY = "ctzy-ty01-deck";
 const DEFAULT_DECK_TITLE = "未命名牌组";
-const leaders = new Set(["主帅", "主公", "主公/皇室"]);
+const leaders = new Set(["主帅"]);
 
 init();
 
@@ -187,7 +187,7 @@ function cardTile(card) {
       <div class="card-info">
         <h3>${escapeHtml(card.name)}</h3>
         <p>${escapeHtml(card.serial)} · ${escapeHtml(card.faction)} · ${escapeHtml(card.type)} · ${escapeHtml(card.rarity)}</p>
-        <p>${card.cost ? `休整${card.cost}` : "无休整"}${card.imageKind === "闪" ? " · 闪图兜底" : ""}</p>
+        <p>${card.cost ? `休整${card.cost}` : "无休整"}</p>
         <div class="card-actions">
           <button type="button" data-add="${card.id}">加入${inDeck ? ` (${inDeck})` : ""}</button>
           <button type="button" data-preview="${card.id}">详情</button>
@@ -202,7 +202,7 @@ function addCard(id, amount = 1) {
   if (!card) return;
   const cards = activeCards();
   const current = cards[id] || 0;
-  const max = leaders.has(card.type) ? 1 : 4;
+  const max = leaders.has(card.type) ? 1 : 3;
   const next = Math.min(max, current + amount);
   if (next === current) {
     showToast(`${card.name} 已达到上限`);
@@ -542,4 +542,5 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
+
 
