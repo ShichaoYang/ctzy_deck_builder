@@ -41,6 +41,7 @@ const els = {
 const STORAGE_KEY = "ctzy-ty01-deck";
 const DEFAULT_DECK_TITLE = "未命名牌组";
 const leaders = new Set(["主帅"]);
+const rarityOrder = ["至臻", "传说", "史诗", "稀有", "普通"];
 
 init();
 
@@ -85,7 +86,7 @@ function bindEvents() {
 function fillFilters() {
   fillSelect(els.faction, "全部势力", unique("faction"));
   fillSelect(els.type, "全部类别", unique("type"));
-  fillSelect(els.rarity, "全部稀有度", unique("rarity"));
+  fillSelect(els.rarity, "全部稀有度", sortRarities(unique("rarity")));
   fillSelect(els.cost, "全部休整", unique("cost").sort((a, b) => Number(a) - Number(b)), formatCostOption);
 
   els.quickFactions.innerHTML = "";
@@ -152,11 +153,23 @@ function sortCards(cards) {
   cards.sort((a, b) => {
     if (mode === "cost") return a.cost - b.cost || bySerial(a, b);
     if (mode === "name") return a.name.localeCompare(b.name, "zh-Hans-CN") || bySerial(a, b);
-    if (mode === "rarity") return a.rarity.localeCompare(b.rarity, "zh-Hans-CN") || bySerial(a, b);
+    if (mode === "rarity") return byRarity(a, b) || bySerial(a, b);
     return bySerial(a, b);
   });
 }
 
+function sortRarities(values) {
+  return [...values].sort((a, b) => rarityRank(a) - rarityRank(b) || a.localeCompare(b, "zh-Hans-CN"));
+}
+
+function rarityRank(rarity) {
+  const index = rarityOrder.indexOf(rarity);
+  return index === -1 ? rarityOrder.length : index;
+}
+
+function byRarity(a, b) {
+  return rarityRank(a.rarity) - rarityRank(b.rarity);
+}
 function bySerial(a, b) {
   return a.id.localeCompare(b.id, "zh-Hans-CN", { numeric: true });
 }
@@ -551,6 +564,8 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
+
+
 
 
 
