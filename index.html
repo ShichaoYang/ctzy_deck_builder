@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>承天之弈 TY01 组卡器</title>
-    <link rel="stylesheet" href="styles.css?v=20260701e">
+    <link rel="stylesheet" href="styles.css?v=20260701g">
   </head>
   <body>
     <header class="topbar">
@@ -93,6 +93,11 @@
         <div class="deck-tools">
           <button id="copyDeck" type="button">复制清单</button>
           <button id="clearDeck" type="button">清空</button>
+          <button id="generateDeckImage" type="button">生成长图</button>
+          <label class="file-button">
+            导入长图
+            <input id="importDeckImage" type="file" accept="image/*">
+          </label>
         </div>
 
         <div id="deckList" class="deck-list"></div>
@@ -119,15 +124,21 @@
       </div>
     </div>
 
+
+    <div class="share-image-modal" id="shareImageModal" hidden>
+      <button class="preview-close" id="closeShareImage" type="button">关闭</button>
+      <div class="share-image-body">
+        <img id="shareImagePreview" alt="卡组长图预览">
+        <div class="share-image-actions">
+          <a id="downloadShareImage" download="ctzy-deck.png">保存长图</a>
+        </div>
+      </div>
+    </div>
+
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=20260701e"></script>
+    <script src="vendor/qrcode.min.js"></script>
+    <script src="vendor/jsQR.js"></script>
+    <script src="app.js?v=20260701g"></script>
   </body>
 </html>
-
-
-
-
-
-
-
 

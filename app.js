@@ -36,6 +36,9 @@ const els = {
   previewSkill: document.querySelector("#previewSkill"),
   previewUpgrade: document.querySelector("#previewUpgrade"),
   previewFlavor: document.querySelector("#previewFlavor"),
+  shareImageModal: document.querySelector("#shareImageModal"),
+  shareImagePreview: document.querySelector("#shareImagePreview"),
+  downloadShareImage: document.querySelector("#downloadShareImage"),
 };
 
 const STORAGE_KEY = "ctzy-ty01-deck";
@@ -55,6 +58,7 @@ async function init() {
   bindEvents();
   applyFilters();
   renderDeck();
+  importDeckFromUrl();
 }
 
 function bindEvents() {
@@ -63,6 +67,8 @@ function bindEvents() {
   });
   document.querySelector("#clearFilters").addEventListener("click", clearFilters);
   document.querySelector("#clearDeck").addEventListener("click", clearDeck);
+  document.querySelector("#generateDeckImage").addEventListener("click", generateDeckImage);
+  document.querySelector("#importDeckImage").addEventListener("change", importDeckFromImage);
   document.querySelector("#copyDeck").addEventListener("click", copyDeck);
   document.querySelector("#exportDeck").addEventListener("click", exportDeck);
   document.querySelector("#importDeck").addEventListener("click", importDeck);
@@ -72,6 +78,7 @@ function bindEvents() {
   els.deckSelect.addEventListener("change", switchDeck);
   document.querySelector("#loadStarter").addEventListener("click", loadStarter);
   document.querySelector("#closePreview").addEventListener("click", closePreview);
+  document.querySelector("#closeShareImage").addEventListener("click", closeShareImage);
   document.querySelector("#previewAdd").addEventListener("click", () => {
     if (state.previewCard) addCard(state.previewCard.id);
   });
@@ -444,6 +451,284 @@ async function importDeck() {
   }
 }
 
+async function generateDeckImage() {
+  const deck = activeDeck();
+  const entries = deckEntriesByRarity(deck);
+  if (!entries.length) {
+    showToast("牌组为空");
+    return;
+  }
+  if (!window.QRCode?.toCanvas) {
+    showToast("二维码生成库加载失败，请刷新后重试");
+    return;
+  }
+
+  showToast("正在生成长图...");
+  const shareUrl = buildShareUrl(deck);
+  const cols = 4;
+  const cardW = 230;
+  const cardH = Math.round(cardW * 1039 / 744);
+  const gap = 20;
+  const pad = 34;
+  const headerH = 116;
+  const footerH = 230;
+  const rows = Math.ceil(entries.length / cols);
+  const width = pad * 2 + cols * cardW + (cols - 1) * gap;
+  const height = pad + headerH + rows * cardH + Math.max(0, rows - 1) * gap + footerH + pad;
+
+  const canvas = document.createElement("canvas");
+  canvas.width = width;
+  canvas.height = height;
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = "#f3f1eb";
+  ctx.fillRect(0, 0, width, height);
+  ctx.fillStyle = "#1e2428";
+  ctx.font = "700 42px Microsoft YaHei, sans-serif";
+  ctx.fillText(deck.title || DEFAULT_DECK_TITLE, pad, pad + 44);
+  ctx.font = "24px Microsoft YaHei, sans-serif";
+  ctx.fillStyle = "#6b716e";
+  ctx.fillText(`总张数 ${deckTotal(deck.cards)} · 不同卡 ${entries.length}`, pad, pad + 84);
+
+  for (let index = 0; index < entries.length; index += 1) {
+    const { card, qty } = entries[index];
+    const col = index % cols;
+    const row = Math.floor(index / cols);
+    const x = pad + col * (cardW + gap);
+    const y = pad + headerH + row * (cardH + gap);
+    await drawCardImage(ctx, card, x, y, cardW, cardH);
+    drawQuantityBadge(ctx, qty, x + cardW - 58, y + cardH - 48);
+  }
+
+  const qrSize = 180;
+  const footerTop = height - pad - footerH + 24;
+  ctx.fillStyle = "#1e2428";
+  ctx.font = "700 30px Microsoft YaHei, sans-serif";
+  ctx.fillText("扫码导入这套牌", pad, footerTop + 38);
+  ctx.font = "20px Microsoft YaHei, sans-serif";
+  ctx.fillStyle = "#6b716e";
+  wrapCanvasText(ctx, shareUrl, pad, footerTop + 78, width - pad * 3 - qrSize, 28, 3);
+  await drawQr(ctx, shareUrl, width - pad - qrSize, height - pad - qrSize, qrSize);
+
+  const dataUrl = canvas.toDataURL("image/png");
+  els.shareImagePreview.src = dataUrl;
+  els.downloadShareImage.href = dataUrl;
+  els.downloadShareImage.download = `${safeFilename(deck.title || "ctzy-deck")}.png`;
+  els.shareImageModal.hidden = false;
+  showToast("长图已生成");
+}
+
+function closeShareImage() {
+  els.shareImageModal.hidden = true;
+}
+
+function deckEntriesByRarity(deck = activeDeck()) {
+  return deckEntries(deck).sort((a, b) => byRarity(a.card, b.card) || a.card.cost - b.card.cost || bySerial(a.card, b.card));
+}
+
+async function drawCardImage(ctx, card, x, y, width, height) {
+  ctx.fillStyle = "#fffdf8";
+  ctx.fillRect(x, y, width, height);
+  try {
+    const img = await loadImage(card.image);
+    ctx.drawImage(img, x, y, width, height);
+  } catch {
+    ctx.fillStyle = "#d9d4c8";
+    ctx.fillRect(x, y, width, height);
+    ctx.fillStyle = "#1e2428";
+    ctx.font = "24px Microsoft YaHei, sans-serif";
+    ctx.fillText(cardDisplayName(card), x + 14, y + 44, width - 28);
+  }
+}
+
+function drawQuantityBadge(ctx, qty, x, y) {
+  ctx.fillStyle = "rgba(159, 59, 53, 0.94)";
+  roundRect(ctx, x, y, 52, 38, 10);
+  ctx.fill();
+  ctx.fillStyle = "#fff";
+  ctx.font = "700 24px Microsoft YaHei, sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillText(`x${qty}`, x + 26, y + 20);
+  ctx.textAlign = "left";
+  ctx.textBaseline = "alphabetic";
+}
+
+function roundRect(ctx, x, y, width, height, radius) {
+  ctx.beginPath();
+  ctx.moveTo(x + radius, y);
+  ctx.arcTo(x + width, y, x + width, y + height, radius);
+  ctx.arcTo(x + width, y + height, x, y + height, radius);
+  ctx.arcTo(x, y + height, x, y, radius);
+  ctx.arcTo(x, y, x + width, y, radius);
+  ctx.closePath();
+}
+
+function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight, maxLines) {
+  let line = "";
+  let lines = 0;
+  for (const char of text) {
+    const next = line + char;
+    if (ctx.measureText(next).width > maxWidth && line) {
+      ctx.fillText(line, x, y + lines * lineHeight);
+      line = char;
+      lines += 1;
+      if (lines >= maxLines - 1) break;
+    } else {
+      line = next;
+    }
+  }
+  if (line && lines < maxLines) ctx.fillText(line, x, y + lines * lineHeight);
+}
+
+async function drawQr(ctx, text, x, y, size) {
+  const qrCanvas = document.createElement("canvas");
+  await QRCode.toCanvas(qrCanvas, text, { width: size, margin: 1, errorCorrectionLevel: "M" });
+  ctx.drawImage(qrCanvas, x, y, size, size);
+}
+
+function loadImage(src) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = reject;
+    img.src = src;
+  });
+}
+
+function buildShareUrl(deck) {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.hash = "";
+  url.searchParams.set("deck", encodeDeckPayload(deck));
+  return url.toString();
+}
+
+function encodeDeckPayload(deck) {
+  const payload = {
+    t: deck.title || DEFAULT_DECK_TITLE,
+    c: Object.entries(deck.cards || {})
+      .filter(([, qty]) => Number(qty) > 0)
+      .map(([id, qty]) => [compactShareCardId(id), qty])
+      .sort(),
+  };
+  return base64UrlEncode(JSON.stringify(payload));
+}
+
+function decodeDeckPayload(code) {
+  const payload = JSON.parse(base64UrlDecode(code));
+  const cards = {};
+  for (const [rawId, qty] of payload.c || []) {
+    const id = expandShareCardId(rawId);
+    const card = findCard(id);
+    if (card) cards[id] = Math.max(1, Math.min(Number(qty) || 1, leaders.has(card.type) ? 1 : 3));
+  }
+  return { title: payload.t || "导入牌组", cards };
+}
+
+function compactShareCardId(id) {
+  return String(id).replace(/^TY01-/, "");
+}
+
+function expandShareCardId(id) {
+  const text = String(id || "").trim();
+  if (!text) return "";
+  return text.includes("-") ? text : `TY01-${text.padStart(3, "0")}`;
+}
+
+function base64UrlEncode(text) {
+  return btoa(unescape(encodeURIComponent(text))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
+}
+
+function base64UrlDecode(text) {
+  const base64 = text.replace(/-/g, "+").replace(/_/g, "/") + "=".repeat((4 - text.length % 4) % 4);
+  return decodeURIComponent(escape(atob(base64)));
+}
+
+function importDeckFromUrl() {
+  const code = new URL(window.location.href).searchParams.get("deck");
+  if (!code) return;
+  try {
+    importSharedDeck(decodeDeckPayload(code));
+    const clean = new URL(window.location.href);
+    clean.searchParams.delete("deck");
+    window.history.replaceState({}, "", clean.toString());
+    showToast("已从二维码链接导入牌组");
+  } catch {
+    showToast("二维码链接里的牌组数据无效");
+  }
+}
+
+function importSharedDeck(deckData) {
+  if (!Object.keys(deckData.cards || {}).length) throw new Error("Empty deck");
+  const deck = createDeck(deckData.title || "导入牌组", deckData.cards);
+  state.decks.push(deck);
+  state.activeDeckId = deck.id;
+  saveDecks();
+  renderDeck();
+  renderGrid();
+}
+
+async function importDeckFromImage(event) {
+  const file = event.target.files?.[0];
+  event.target.value = "";
+  if (!file) return;
+  try {
+    const text = await readQrFromImage(file);
+    const code = deckCodeFromQrText(text);
+    if (!code) throw new Error("No deck code");
+    importSharedDeck(decodeDeckPayload(code));
+    showToast("已从长图导入牌组");
+  } catch {
+    showToast("没有识别到有效的卡组二维码");
+  }
+}
+
+async function readQrFromImage(file) {
+  if ("BarcodeDetector" in window) {
+    const detector = new BarcodeDetector({ formats: ["qr_code"] });
+    const bitmap = await createImageBitmap(file);
+    const codes = await detector.detect(bitmap);
+    if (codes.length) return codes[0].rawValue;
+  }
+  if (window.jsQR) {
+    const objectUrl = URL.createObjectURL(file);
+    try {
+      const img = await loadImage(objectUrl);
+      const canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth || img.width;
+      canvas.height = img.naturalHeight || img.height;
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+      const cropSize = Math.min(canvas.width, canvas.height, Math.max(360, Math.round(Math.min(canvas.width, canvas.height) * 0.45)));
+      const cropX = Math.max(0, canvas.width - cropSize);
+      const cropY = Math.max(0, canvas.height - cropSize);
+      const cropped = readQrFromCanvas(ctx, cropX, cropY, cropSize, cropSize);
+      if (cropped) return cropped;
+      const full = readQrFromCanvas(ctx, 0, 0, canvas.width, canvas.height);
+      if (full) return full;
+    } finally {
+      URL.revokeObjectURL(objectUrl);
+    }
+  }
+  throw new Error("No QR code");
+}
+
+function readQrFromCanvas(ctx, x, y, width, height) {
+  const imageData = ctx.getImageData(x, y, width, height);
+  return jsQR(imageData.data, width, height)?.data || "";
+}
+
+function deckCodeFromQrText(text) {
+  try {
+    return new URL(text).searchParams.get("deck");
+  } catch {
+    return text?.trim() || "";
+  }
+}
+
+function safeFilename(value) {
+  return String(value).replace(/[\\/:*?"<>|]+/g, "_").slice(0, 60) || "ctzy-deck";
+}
 function deckText() {
   const entries = deckEntries();
   if (!entries.length) return "";
@@ -564,11 +849,4 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
-
-
-
-
-
-
-
 
