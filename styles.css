@@ -409,6 +409,9 @@ select {
   line-height: 1.65;
   white-space: pre-wrap;
 }
+#previewUpgrade {
+  color: var(--ink);
+}
 
 .preview-close {
   position: fixed;

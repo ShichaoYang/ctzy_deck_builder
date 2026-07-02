@@ -94,7 +94,7 @@ function fillFilters() {
   fillSelect(els.faction, "全部势力", unique("faction"));
   fillSelect(els.type, "全部类别", unique("type"));
   fillSelect(els.rarity, "全部稀有度", sortRarities(unique("rarity")));
-  fillSelect(els.cost, "全部休整", unique("cost").sort((a, b) => Number(a) - Number(b)), formatCostOption);
+  fillSelect(els.cost, "全部", ["with", "without"], formatUpgradeFilterOption);
 
   els.quickFactions.innerHTML = "";
   unique("faction").forEach((faction) => {
@@ -119,8 +119,8 @@ function fillSelect(select, label, values, formatter = (value) => value) {
   });
 }
 
-function formatCostOption(value) {
-  return value === "0" || value === 0 ? "无休整" : `休整${value}`;
+function formatUpgradeFilterOption(value) {
+  return value === "with" ? "有界限突破" : "无界限突破";
 }
 
 function unique(key) {
@@ -133,7 +133,7 @@ function applyFilters() {
   const query = els.search.value.trim().toLowerCase();
   const terms = query.split(/\s+/).filter(Boolean);
   state.filtered = state.cards.filter((card) => {
-    const haystack = [card.id, card.serial, card.name, card.traditionalName, card.title, card.skill, card.artist]
+    const haystack = [card.id, card.serial, card.name, card.traditionalName, card.title, card.skill, card.upgrade, card.artist]
       .join(" ")
       .toLowerCase();
     const matchesQuery = terms.every((term) => haystack.includes(term));
@@ -142,7 +142,7 @@ function applyFilters() {
       matches(card.faction, els.faction.value) &&
       matches(card.type, els.type.value) &&
       matches(card.rarity, els.rarity.value) &&
-      matches(String(card.cost), els.cost.value)
+      matchesUpgrade(card, els.cost.value)
     );
   });
 
@@ -153,6 +153,12 @@ function applyFilters() {
 
 function matches(value, expected) {
   return !expected || String(value) === expected;
+}
+
+function matchesUpgrade(card, expected) {
+  if (!expected) return true;
+  const hasUpgrade = Boolean(String(card.upgrade || "").trim());
+  return expected === "with" ? hasUpgrade : !hasUpgrade;
 }
 
 function sortCards(cards) {
@@ -748,7 +754,7 @@ function openPreview(id) {
   els.previewName.textContent = cardDisplayName(card);
   els.previewMeta.textContent = `${card.faction} · ${card.type} · ${card.rarity} · ${card.cost ? `休整${card.cost}` : "无休整"} · ${card.artist || "未知画师"}`;
   els.previewSkill.textContent = card.skill || "暂无技能文本";
-  els.previewUpgrade.textContent = card.upgrade ? `升级：${card.upgrade}` : "";
+  els.previewUpgrade.textContent = card.upgrade || "";
   els.previewFlavor.textContent = card.flavor ? `风味：${card.flavor}` : "";
   els.preview.hidden = false;
 }
