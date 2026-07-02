@@ -92,7 +92,7 @@ function bindEvents() {
 
 function fillFilters() {
   fillSelect(els.faction, "全部势力", unique("faction"));
-  fillSelect(els.type, "全部类别", unique("type"));
+  fillSelect(els.type, "全部类别", uniqueTypes());
   fillSelect(els.rarity, "全部稀有度", sortRarities(unique("rarity")));
   fillSelect(els.cost, "全部", ["with", "without"], formatUpgradeFilterOption);
 
@@ -140,7 +140,7 @@ function applyFilters() {
     return (
       matchesQuery &&
       matches(card.faction, els.faction.value) &&
-      matches(card.type, els.type.value) &&
+      matchesType(card, els.type.value) &&
       matches(card.rarity, els.rarity.value) &&
       matchesUpgrade(card, els.cost.value)
     );
@@ -153,6 +153,23 @@ function applyFilters() {
 
 function matches(value, expected) {
   return !expected || String(value) === expected;
+}
+
+function splitTypes(value) {
+  return String(value || "")
+    .split("/")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function uniqueTypes() {
+  return [...new Set(state.cards.flatMap((card) => splitTypes(card.type)))].sort((a, b) =>
+    a.localeCompare(b, "zh-Hans-CN", { numeric: true })
+  );
+}
+
+function matchesType(card, expected) {
+  return !expected || splitTypes(card.type).includes(expected);
 }
 
 function matchesUpgrade(card, expected) {
@@ -182,6 +199,10 @@ function rarityRank(rarity) {
 
 function byRarity(a, b) {
   return rarityRank(a.rarity) - rarityRank(b.rarity);
+}
+
+function byLeader(a, b) {
+  return Number(leaders.has(b.type)) - Number(leaders.has(a.type));
 }
 function bySerial(a, b) {
   return a.id.localeCompare(b.id, "zh-Hans-CN", { numeric: true });
@@ -528,7 +549,7 @@ function closeShareImage() {
 }
 
 function deckEntriesByRarity(deck = activeDeck()) {
-  return deckEntries(deck).sort((a, b) => byRarity(a.card, b.card) || a.card.cost - b.card.cost || bySerial(a.card, b.card));
+  return deckEntries(deck).sort((a, b) => byLeader(a.card, b.card) || byRarity(a.card, b.card) || a.card.cost - b.card.cost || bySerial(a.card, b.card));
 }
 
 async function drawCardImage(ctx, card, x, y, width, height) {
