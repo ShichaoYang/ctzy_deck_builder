@@ -684,11 +684,11 @@ function importDeckFromUrl() {
   const code = new URL(window.location.href).searchParams.get("deck");
   if (!code) return;
   try {
-    importSharedDeck(decodeDeckPayload(code));
+    const result = importSharedDeck(decodeDeckPayload(code));
     const clean = new URL(window.location.href);
     clean.searchParams.delete("deck");
     window.history.replaceState({}, "", clean.toString());
-    showToast("已从二维码链接导入牌组");
+    showToast(result === "duplicate" ? "已有相同牌组，已切换过去" : "已从二维码链接导入牌组");
   } catch {
     showToast("二维码链接里的牌组数据无效");
   }
@@ -696,12 +696,44 @@ function importDeckFromUrl() {
 
 function importSharedDeck(deckData) {
   if (!Object.keys(deckData.cards || {}).length) throw new Error("Empty deck");
-  const deck = createDeck(deckData.title || "导入牌组", deckData.cards);
+  const title = deckData.title || "导入牌组";
+  const cards = normalizeDeckCards(deckData.cards);
+  const duplicate = findDuplicateDeck(title, cards);
+  if (duplicate) {
+    state.activeDeckId = duplicate.id;
+    saveDecks();
+    renderDeck();
+    renderGrid();
+    return "duplicate";
+  }
+  const deck = createDeck(title, cards);
   state.decks.push(deck);
   state.activeDeckId = deck.id;
   saveDecks();
   renderDeck();
   renderGrid();
+  return "created";
+}
+
+function findDuplicateDeck(title, cards) {
+  return state.decks.find((deck) => deck.title === title && sameDeckCards(deck.cards, cards));
+}
+
+function sameDeckCards(left, right) {
+  const a = normalizeDeckCards(left);
+  const b = normalizeDeckCards(right);
+  const aKeys = Object.keys(a).sort();
+  const bKeys = Object.keys(b).sort();
+  return aKeys.length === bKeys.length && aKeys.every((id, index) => id === bKeys[index] && a[id] === b[id]);
+}
+
+function normalizeDeckCards(cards = {}) {
+  return Object.fromEntries(
+    Object.entries(cards)
+      .map(([id, qty]) => [id, Number(qty) || 0])
+      .filter(([, qty]) => qty > 0)
+      .sort(([a], [b]) => a.localeCompare(b, "zh-Hans-CN", { numeric: true }))
+  );
 }
 
 async function importDeckFromImage(event) {
@@ -712,8 +744,8 @@ async function importDeckFromImage(event) {
     const text = await readQrFromImage(file);
     const code = deckCodeFromQrText(text);
     if (!code) throw new Error("No deck code");
-    importSharedDeck(decodeDeckPayload(code));
-    showToast("已从长图导入牌组");
+    const result = importSharedDeck(decodeDeckPayload(code));
+    showToast(result === "duplicate" ? "已有相同牌组，已切换过去" : "已从长图导入牌组");
   } catch {
     showToast("没有识别到有效的卡组二维码");
   }
