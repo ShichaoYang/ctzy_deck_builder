@@ -45,6 +45,7 @@ const STORAGE_KEY = "ctzy-ty01-deck";
 const DEFAULT_DECK_TITLE = "未命名牌组";
 const leaders = new Set(["主帅"]);
 const rarityOrder = ["至臻", "传说", "史诗", "稀有", "普通"];
+const externalLink = "https://xyxxcx.sanguosha.com/h5/link.html?prefix=1JW4ZgBxdev";
 
 init();
 
@@ -77,6 +78,7 @@ function bindEvents() {
   document.querySelector("#deleteDeck").addEventListener("click", deleteDeck);
   els.deckSelect.addEventListener("change", switchDeck);
   document.querySelector("#loadStarter").addEventListener("click", loadStarter);
+  document.querySelector("#openExternalLink").addEventListener("click", openExternalLink);
   document.querySelector("#closePreview").addEventListener("click", closePreview);
   document.querySelector("#closeShareImage").addEventListener("click", closeShareImage);
   document.querySelector("#previewAdd").addEventListener("click", () => {
@@ -88,6 +90,10 @@ function bindEvents() {
   els.mobileDeckToggle.addEventListener("click", () => {
     els.deckPanel.classList.toggle("open");
   });
+}
+
+function openExternalLink() {
+  window.open(externalLink, "_blank", "noopener") || window.location.assign(externalLink);
 }
 
 function fillFilters() {
