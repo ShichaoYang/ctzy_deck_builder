@@ -90,6 +90,12 @@ button:hover,
   display: none;
 }
 
+.join-community {
+  border-color: transparent;
+  background: var(--red);
+  color: #fff;
+}
+
 .app-shell {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 360px;

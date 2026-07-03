@@ -71,13 +71,10 @@ function bindEvents() {
   document.querySelector("#generateDeckImage").addEventListener("click", generateDeckImage);
   document.querySelector("#importDeckImage").addEventListener("change", importDeckFromImage);
   document.querySelector("#copyDeck").addEventListener("click", copyDeck);
-  document.querySelector("#exportDeck").addEventListener("click", exportDeck);
-  document.querySelector("#importDeck").addEventListener("click", importDeck);
   document.querySelector("#renameDeck").addEventListener("click", renameDeck);
   document.querySelector("#newDeck").addEventListener("click", newDeck);
   document.querySelector("#deleteDeck").addEventListener("click", deleteDeck);
   els.deckSelect.addEventListener("change", switchDeck);
-  document.querySelector("#loadStarter").addEventListener("click", loadStarter);
   document.querySelector("#openExternalLink").addEventListener("click", openExternalLink);
   document.querySelector("#closePreview").addEventListener("click", closePreview);
   document.querySelector("#closeShareImage").addEventListener("click", closeShareImage);
@@ -93,7 +90,13 @@ function bindEvents() {
 }
 
 function openExternalLink() {
-  window.open(externalLink, "_blank", "noopener") || window.location.assign(externalLink);
+  const isDesktop = window.matchMedia("(min-width: 901px)").matches;
+  if (!isDesktop) {
+    window.location.assign(externalLink);
+    return;
+  }
+  const opened = window.open(externalLink, "_blank", "noopener");
+  if (!opened) showToast("浏览器拦截了新页面，请允许弹窗后重试");
 }
 
 function fillFilters() {
