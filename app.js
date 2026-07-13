@@ -50,7 +50,7 @@ const externalLink = "https://xyxxcx.sanguosha.com/h5/link.html?prefix=1JW4ZgBxd
 init();
 
 async function init() {
-  const response = await fetch("data/cards.json?v=20260701c");
+  const response = await fetch("data/cards.json?v=20260713a");
   const payload = await response.json();
   state.cards = payload.cards;
   state.extras = payload.extras || [];
@@ -239,10 +239,11 @@ function renderGrid() {
 function cardTile(card) {
   const name = cardDisplayName(card);
   const inDeck = activeCards()[card.id] || 0;
+  const tileImage = card.thumb || card.image;
   return `
     <article class="card-tile">
       <div class="card-art">
-        ${card.image ? `<img src="${card.image}" alt="${escapeHtml(name)}">` : `<div class="missing-art">暂无图片</div>`}
+        ${tileImage ? `<img src="${tileImage}" alt="${escapeHtml(name)}" loading="lazy" decoding="async">` : `<div class="missing-art">暂无图片</div>`}
         <button type="button" data-preview="${card.id}" aria-label="查看 ${escapeHtml(name)}"></button>
       </div>
       <div class="card-info">
@@ -327,9 +328,10 @@ function deckEntries(deck = activeDeck()) {
 
 function deckRow({ card, qty }) {
   const name = cardDisplayName(card);
+  const rowImage = card.thumb || card.image;
   return `
     <div class="deck-row">
-      ${card.image ? `<img src="${card.image}" alt="${escapeHtml(name)}">` : `<div></div>`}
+      ${rowImage ? `<img src="${rowImage}" alt="${escapeHtml(name)}" loading="lazy" decoding="async">` : `<div></div>`}
       <div>
         <h3>${escapeHtml(name)}</h3>
         <p>${escapeHtml(card.id)} · ${escapeHtml(card.faction)} · ${escapeHtml(card.type)} · ${card.cost ? `休整${card.cost}` : "无休整"}</p>

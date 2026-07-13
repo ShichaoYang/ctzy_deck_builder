@@ -26,8 +26,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-001.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-001.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-001.webp"
     },
     {
       "id": "TY01-002",
@@ -49,8 +50,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-002.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-002.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-002.webp"
     },
     {
       "id": "TY01-003",
@@ -72,8 +74,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-003.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-003.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-003.webp"
     },
     {
       "id": "TY01-004",
@@ -95,8 +98,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-004.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-004.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-004.webp"
     },
     {
       "id": "TY01-005",
@@ -118,8 +122,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-005.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-005.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-005.webp"
     },
     {
       "id": "TY01-006",
@@ -141,8 +146,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-006.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-006.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-006.webp"
     },
     {
       "id": "TY01-007",
@@ -164,8 +170,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-007.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-007.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-007.webp"
     },
     {
       "id": "TY01-008",
@@ -187,8 +194,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-008.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-008.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-008.webp"
     },
     {
       "id": "TY01-009",
@@ -210,8 +218,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-009.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-009.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-009.webp"
     },
     {
       "id": "TY01-010",
@@ -233,8 +242,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-010.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-010.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-010.webp"
     },
     {
       "id": "TY01-011",
@@ -256,8 +266,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-011.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-011.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-011.webp"
     },
     {
       "id": "TY01-012",
@@ -279,8 +290,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-012.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-012.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-012.webp"
     },
     {
       "id": "TY01-013",
@@ -302,8 +314,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-013.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-013.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-013.webp"
     },
     {
       "id": "TY01-014",
@@ -325,8 +338,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-014.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-014.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-014.webp"
     },
     {
       "id": "TY01-015",
@@ -348,8 +362,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-015.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-015.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-015.webp"
     },
     {
       "id": "TY01-016",
@@ -371,8 +386,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-016.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-016.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-016.webp"
     },
     {
       "id": "TY01-017",
@@ -394,8 +410,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-017.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-017.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-017.webp"
     },
     {
       "id": "TY01-018",
@@ -417,8 +434,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-018.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-018.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-018.webp"
     },
     {
       "id": "TY01-019",
@@ -440,8 +458,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-019.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-019.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-019.webp"
     },
     {
       "id": "TY01-020",
@@ -463,8 +482,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-020.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-020.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-020.webp"
     },
     {
       "id": "TY01-021",
@@ -486,8 +506,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-021.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-021.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-021.webp"
     },
     {
       "id": "TY01-022",
@@ -509,8 +530,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-022.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-022.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-022.webp"
     },
     {
       "id": "TY01-023",
@@ -532,8 +554,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-023.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-023.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-023.webp"
     },
     {
       "id": "TY01-024",
@@ -555,8 +578,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-024.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-024.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-024.webp"
     },
     {
       "id": "TY01-025",
@@ -578,8 +602,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-025.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-025.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-025.webp"
     },
     {
       "id": "TY01-026",
@@ -601,8 +626,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-026.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-026.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-026.webp"
     },
     {
       "id": "TY01-027",
@@ -624,8 +650,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-027.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-027.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-027.webp"
     },
     {
       "id": "TY01-028",
@@ -647,8 +674,9 @@
       "trialCount": 3,
       "starterDeck": "预组魏",
       "starterCount": 3,
-      "image": "assets/cards/TY01-028.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-028.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-028.webp"
     },
     {
       "id": "TY01-029",
@@ -670,8 +698,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-029.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-029.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-029.webp"
     },
     {
       "id": "TY01-030",
@@ -693,8 +722,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-030.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-030.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-030.webp"
     },
     {
       "id": "TY01-031",
@@ -716,8 +746,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-031.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-031.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-031.webp"
     },
     {
       "id": "TY01-032",
@@ -739,8 +770,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-032.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-032.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-032.webp"
     },
     {
       "id": "TY01-033",
@@ -762,8 +794,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-033.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-033.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-033.webp"
     },
     {
       "id": "TY01-034",
@@ -785,8 +818,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-034.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-034.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-034.webp"
     },
     {
       "id": "TY01-035",
@@ -808,8 +842,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-035.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-035.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-035.webp"
     },
     {
       "id": "TY01-036",
@@ -831,8 +866,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-036.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-036.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-036.webp"
     },
     {
       "id": "TY01-037",
@@ -854,8 +890,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-037.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-037.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-037.webp"
     },
     {
       "id": "TY01-038",
@@ -877,8 +914,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-038.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-038.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-038.webp"
     },
     {
       "id": "TY01-039",
@@ -900,8 +938,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-039.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-039.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-039.webp"
     },
     {
       "id": "TY01-040",
@@ -923,8 +962,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-040.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-040.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-040.webp"
     },
     {
       "id": "TY01-041",
@@ -946,8 +986,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-041.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-041.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-041.webp"
     },
     {
       "id": "TY01-042",
@@ -969,8 +1010,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-042.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-042.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-042.webp"
     },
     {
       "id": "TY01-043",
@@ -992,8 +1034,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 1,
-      "image": "assets/cards/TY01-043.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-043.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-043.webp"
     },
     {
       "id": "TY01-044",
@@ -1015,8 +1058,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-044.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-044.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-044.webp"
     },
     {
       "id": "TY01-045",
@@ -1038,8 +1082,9 @@
       "trialCount": 1,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-045.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-045.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-045.webp"
     },
     {
       "id": "TY01-046",
@@ -1061,8 +1106,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-046.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-046.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-046.webp"
     },
     {
       "id": "TY01-047",
@@ -1084,8 +1130,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-047.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-047.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-047.webp"
     },
     {
       "id": "TY01-048",
@@ -1107,8 +1154,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-048.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-048.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-048.webp"
     },
     {
       "id": "TY01-049",
@@ -1130,8 +1178,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-049.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-049.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-049.webp"
     },
     {
       "id": "TY01-050",
@@ -1153,8 +1202,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-050.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-050.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-050.webp"
     },
     {
       "id": "TY01-051",
@@ -1176,8 +1226,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-051.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-051.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-051.webp"
     },
     {
       "id": "TY01-052",
@@ -1199,8 +1250,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-052.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-052.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-052.webp"
     },
     {
       "id": "TY01-053",
@@ -1222,8 +1274,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-053.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-053.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-053.webp"
     },
     {
       "id": "TY01-054",
@@ -1245,8 +1298,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-054.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-054.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-054.webp"
     },
     {
       "id": "TY01-055",
@@ -1268,8 +1322,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-055.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-055.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-055.webp"
     },
     {
       "id": "TY01-056",
@@ -1291,8 +1346,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-056.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-056.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-056.webp"
     },
     {
       "id": "TY01-057",
@@ -1314,8 +1370,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-057.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-057.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-057.webp"
     },
     {
       "id": "TY01-058",
@@ -1337,8 +1394,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-058.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-058.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-058.webp"
     },
     {
       "id": "TY01-059",
@@ -1360,8 +1418,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-059.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-059.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-059.webp"
     },
     {
       "id": "TY01-060",
@@ -1383,8 +1442,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-060.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-060.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-060.webp"
     },
     {
       "id": "TY01-061",
@@ -1406,8 +1466,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-061.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-061.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-061.webp"
     },
     {
       "id": "TY01-062",
@@ -1429,8 +1490,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-062.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-062.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-062.webp"
     },
     {
       "id": "TY01-063",
@@ -1452,8 +1514,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-063.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-063.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-063.webp"
     },
     {
       "id": "TY01-064",
@@ -1475,8 +1538,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-064.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-064.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-064.webp"
     },
     {
       "id": "TY01-065",
@@ -1498,8 +1562,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-065.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-065.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-065.webp"
     },
     {
       "id": "TY01-066",
@@ -1521,8 +1586,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-066.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-066.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-066.webp"
     },
     {
       "id": "TY01-067",
@@ -1544,8 +1610,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-067.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-067.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-067.webp"
     },
     {
       "id": "TY01-068",
@@ -1567,8 +1634,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-068.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-068.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-068.webp"
     },
     {
       "id": "TY01-069",
@@ -1590,8 +1658,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-069.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-069.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-069.webp"
     },
     {
       "id": "TY01-070",
@@ -1613,8 +1682,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-070.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-070.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-070.webp"
     },
     {
       "id": "TY01-071",
@@ -1636,8 +1706,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-071.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-071.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-071.webp"
     },
     {
       "id": "TY01-072",
@@ -1659,8 +1730,9 @@
       "trialCount": 3,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-072.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-072.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-072.webp"
     },
     {
       "id": "TY01-073",
@@ -1682,8 +1754,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-073.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-073.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-073.webp"
     },
     {
       "id": "TY01-074",
@@ -1705,8 +1778,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-074.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-074.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-074.webp"
     },
     {
       "id": "TY01-075",
@@ -1728,8 +1802,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-075.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-075.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-075.webp"
     },
     {
       "id": "TY01-076",
@@ -1751,8 +1826,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-076.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-076.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-076.webp"
     },
     {
       "id": "TY01-077",
@@ -1774,8 +1850,9 @@
       "trialCount": 1,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-077.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-077.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-077.webp"
     },
     {
       "id": "TY01-078",
@@ -1797,8 +1874,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-078.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-078.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-078.webp"
     },
     {
       "id": "TY01-079",
@@ -1820,8 +1898,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-079.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-079.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-079.webp"
     },
     {
       "id": "TY01-080",
@@ -1843,8 +1922,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-080.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-080.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-080.webp"
     },
     {
       "id": "TY01-081",
@@ -1866,8 +1946,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 3,
-      "image": "assets/cards/TY01-081.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-081.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-081.webp"
     },
     {
       "id": "TY01-082",
@@ -1889,8 +1970,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-082.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-082.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-082.webp"
     },
     {
       "id": "TY01-083",
@@ -1912,8 +1994,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-083.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-083.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-083.webp"
     },
     {
       "id": "TY01-084",
@@ -1935,8 +2018,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-084.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-084.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-084.webp"
     },
     {
       "id": "TY01-085",
@@ -1958,8 +2042,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-085.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-085.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-085.webp"
     },
     {
       "id": "TY01-086",
@@ -1981,8 +2066,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-086.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-086.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-086.webp"
     },
     {
       "id": "TY01-087",
@@ -2004,8 +2090,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-087.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-087.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-087.webp"
     },
     {
       "id": "TY01-088",
@@ -2027,8 +2114,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 1,
-      "image": "assets/cards/TY01-088.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-088.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-088.webp"
     },
     {
       "id": "TY01-089",
@@ -2050,8 +2138,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-089.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-089.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-089.webp"
     },
     {
       "id": "TY01-090",
@@ -2073,8 +2162,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-090.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-090.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-090.webp"
     },
     {
       "id": "TY01-091",
@@ -2096,8 +2186,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-091.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-091.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-091.webp"
     },
     {
       "id": "TY01-092",
@@ -2119,8 +2210,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-092.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-092.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-092.webp"
     },
     {
       "id": "TY01-093",
@@ -2142,8 +2234,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-093.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-093.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-093.webp"
     },
     {
       "id": "TY01-094",
@@ -2165,8 +2258,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-094.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-094.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-094.webp"
     },
     {
       "id": "TY01-095",
@@ -2188,8 +2282,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-095.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-095.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-095.webp"
     },
     {
       "id": "TY01-096",
@@ -2211,8 +2306,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-096.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-096.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-096.webp"
     },
     {
       "id": "TY01-097",
@@ -2234,8 +2330,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-097.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-097.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-097.webp"
     },
     {
       "id": "TY01-098",
@@ -2257,8 +2354,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-098.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-098.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-098.webp"
     },
     {
       "id": "TY01-099",
@@ -2280,8 +2378,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-099.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-099.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-099.webp"
     },
     {
       "id": "TY01-100",
@@ -2303,8 +2402,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-100.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-100.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-100.webp"
     },
     {
       "id": "TY01-101",
@@ -2326,8 +2426,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-101.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-101.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-101.webp"
     },
     {
       "id": "TY01-102",
@@ -2349,8 +2450,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-102.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-102.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-102.webp"
     },
     {
       "id": "TY01-103",
@@ -2372,8 +2474,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-103.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-103.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-103.webp"
     },
     {
       "id": "TY01-104",
@@ -2395,8 +2498,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-104.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-104.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-104.webp"
     },
     {
       "id": "TY01-105",
@@ -2418,8 +2522,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-105.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-105.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-105.webp"
     },
     {
       "id": "TY01-106",
@@ -2441,8 +2546,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-106.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-106.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-106.webp"
     },
     {
       "id": "TY01-107",
@@ -2464,8 +2570,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-107.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-107.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-107.webp"
     },
     {
       "id": "TY01-108",
@@ -2487,8 +2594,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-108.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-108.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-108.webp"
     },
     {
       "id": "TY01-109",
@@ -2510,8 +2618,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-109.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-109.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-109.webp"
     },
     {
       "id": "TY01-110",
@@ -2533,8 +2642,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-110.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-110.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-110.webp"
     },
     {
       "id": "TY01-111",
@@ -2556,8 +2666,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-111.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-111.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-111.webp"
     },
     {
       "id": "TY01-112",
@@ -2579,8 +2690,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-112.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-112.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-112.webp"
     },
     {
       "id": "TY01-113",
@@ -2602,8 +2714,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-113.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-113.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-113.webp"
     },
     {
       "id": "TY01-114",
@@ -2625,8 +2738,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-114.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-114.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-114.webp"
     },
     {
       "id": "TY01-115",
@@ -2648,8 +2762,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-115.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-115.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-115.webp"
     },
     {
       "id": "TY01-116",
@@ -2671,8 +2786,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-116.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-116.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-116.webp"
     },
     {
       "id": "TY01-117",
@@ -2694,8 +2810,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-117.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-117.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-117.webp"
     },
     {
       "id": "TY01-118",
@@ -2717,8 +2834,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-118.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-118.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-118.webp"
     },
     {
       "id": "TY01-119",
@@ -2740,8 +2858,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-119.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-119.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-119.webp"
     },
     {
       "id": "TY01-120",
@@ -2763,8 +2882,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-120.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-120.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-120.webp"
     },
     {
       "id": "TY01-121",
@@ -2786,8 +2906,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-121.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-121.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-121.webp"
     },
     {
       "id": "TY01-122",
@@ -2809,8 +2930,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-122.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-122.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-122.webp"
     },
     {
       "id": "TY01-123",
@@ -2832,8 +2954,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-123.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-123.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-123.webp"
     },
     {
       "id": "TY01-124",
@@ -2855,8 +2978,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-124.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-124.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-124.webp"
     },
     {
       "id": "TY01-125",
@@ -2878,8 +3002,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-125.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-125.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-125.webp"
     },
     {
       "id": "TY01-126",
@@ -2901,8 +3026,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 3,
-      "image": "assets/cards/TY01-126.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-126.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-126.webp"
     },
     {
       "id": "TY01-127",
@@ -2924,8 +3050,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-127.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-127.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-127.webp"
     },
     {
       "id": "TY01-128",
@@ -2947,8 +3074,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-128.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-128.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-128.webp"
     },
     {
       "id": "TY01-129",
@@ -2970,8 +3098,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-129.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-129.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-129.webp"
     },
     {
       "id": "TY01-130",
@@ -2993,8 +3122,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-130.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-130.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-130.webp"
     },
     {
       "id": "TY01-131",
@@ -3016,8 +3146,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-131.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-131.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-131.webp"
     },
     {
       "id": "TY01-132",
@@ -3039,8 +3170,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-132.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-132.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-132.webp"
     },
     {
       "id": "TY01-133",
@@ -3062,8 +3194,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-133.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-133.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-133.webp"
     },
     {
       "id": "TY01-134",
@@ -3085,8 +3218,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-134.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-134.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-134.webp"
     },
     {
       "id": "TY01-135",
@@ -3108,8 +3242,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-135.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-135.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-135.webp"
     },
     {
       "id": "TY01-136",
@@ -3131,8 +3266,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-136.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-136.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-136.webp"
     },
     {
       "id": "TY01-137",
@@ -3154,8 +3290,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 1,
-      "image": "assets/cards/TY01-137.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-137.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-137.webp"
     },
     {
       "id": "TY01-138",
@@ -3177,8 +3314,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-138.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-138.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-138.webp"
     },
     {
       "id": "TY01-139",
@@ -3200,8 +3338,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-139.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-139.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-139.webp"
     },
     {
       "id": "TY01-140",
@@ -3223,8 +3362,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-140.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-140.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-140.webp"
     },
     {
       "id": "TY01-141",
@@ -3246,8 +3386,9 @@
       "trialCount": 1,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-141.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-141.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-141.webp"
     },
     {
       "id": "TY01-142",
@@ -3269,8 +3410,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-142.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-142.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-142.webp"
     },
     {
       "id": "TY01-143",
@@ -3292,8 +3434,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-143.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-143.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-143.webp"
     },
     {
       "id": "TY01-144",
@@ -3315,8 +3458,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-144.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-144.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-144.webp"
     },
     {
       "id": "TY01-145",
@@ -3338,8 +3482,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-145.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-145.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-145.webp"
     },
     {
       "id": "TY01-146",
@@ -3361,8 +3506,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-146.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-146.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-146.webp"
     },
     {
       "id": "TY01-147",
@@ -3384,8 +3530,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-147.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-147.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-147.webp"
     },
     {
       "id": "TY01-148",
@@ -3407,8 +3554,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-148.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-148.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-148.webp"
     },
     {
       "id": "TY01-149",
@@ -3430,8 +3578,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-149.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-149.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-149.webp"
     },
     {
       "id": "TY01-150",
@@ -3453,8 +3602,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-150.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-150.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-150.webp"
     },
     {
       "id": "TY01-151",
@@ -3476,8 +3626,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-151.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-151.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-151.webp"
     },
     {
       "id": "TY01-152",
@@ -3499,8 +3650,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-152.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-152.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-152.webp"
     },
     {
       "id": "TY01-153",
@@ -3522,8 +3674,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-153.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-153.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-153.webp"
     },
     {
       "id": "TY01-154",
@@ -3545,8 +3698,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-154.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-154.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-154.webp"
     },
     {
       "id": "TY01-155",
@@ -3568,8 +3722,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-155.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-155.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-155.webp"
     },
     {
       "id": "TY01-156",
@@ -3591,8 +3746,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-156.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-156.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-156.webp"
     },
     {
       "id": "TY01-157",
@@ -3614,8 +3770,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-157.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-157.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-157.webp"
     },
     {
       "id": "TY01-158",
@@ -3637,8 +3794,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-158.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-158.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-158.webp"
     },
     {
       "id": "TY01-159",
@@ -3660,8 +3818,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-159.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-159.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-159.webp"
     },
     {
       "id": "TY01-160",
@@ -3683,8 +3842,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-160.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-160.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-160.webp"
     },
     {
       "id": "TY01-161",
@@ -3706,8 +3866,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-161.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-161.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-161.webp"
     },
     {
       "id": "TY01-162",
@@ -3729,8 +3890,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-162.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-162.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-162.webp"
     },
     {
       "id": "TY01-163",
@@ -3752,8 +3914,9 @@
       "trialCount": 3,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-163.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-163.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-163.webp"
     },
     {
       "id": "TY01-164",
@@ -3775,8 +3938,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-164.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-164.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-164.webp"
     },
     {
       "id": "TY01-165",
@@ -3798,8 +3962,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-165.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-165.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-165.webp"
     },
     {
       "id": "TY01-166",
@@ -3821,8 +3986,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-166.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-166.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-166.webp"
     },
     {
       "id": "TY01-167",
@@ -3844,8 +4010,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-167.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-167.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-167.webp"
     },
     {
       "id": "TY01-168",
@@ -3867,8 +4034,9 @@
       "trialCount": 3,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-168.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-168.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-168.webp"
     },
     {
       "id": "TY01-169",
@@ -3890,8 +4058,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-169.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-169.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-169.webp"
     },
     {
       "id": "TY01-170",
@@ -3913,8 +4082,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-170.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-170.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-170.webp"
     },
     {
       "id": "TY01-171",
@@ -3936,8 +4106,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-171.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-171.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-171.webp"
     },
     {
       "id": "TY01-172",
@@ -3959,8 +4130,9 @@
       "trialCount": 3,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-172.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-172.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-172.webp"
     },
     {
       "id": "TY01-173",
@@ -3982,8 +4154,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-173.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-173.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-173.webp"
     },
     {
       "id": "TY01-174",
@@ -4005,8 +4178,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-174.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-174.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-174.webp"
     },
     {
       "id": "TY01-175",
@@ -4028,8 +4202,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-175.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-175.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-175.webp"
     },
     {
       "id": "TY01-176",
@@ -4051,8 +4226,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-176.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-176.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-176.webp"
     },
     {
       "id": "TY01-177",
@@ -4074,8 +4250,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-177.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-177.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-177.webp"
     },
     {
       "id": "TY01-178",
@@ -4097,8 +4274,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 3,
-      "image": "assets/cards/TY01-178.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-178.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-178.webp"
     },
     {
       "id": "TY01-179",
@@ -4120,8 +4298,9 @@
       "trialCount": 1,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-179.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-179.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-179.webp"
     },
     {
       "id": "TY01-180",
@@ -4143,8 +4322,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-180.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-180.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-180.webp"
     },
     {
       "id": "TY01-181",
@@ -4166,8 +4346,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-181.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-181.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-181.webp"
     },
     {
       "id": "TY01-182",
@@ -4189,8 +4370,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-182.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-182.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-182.webp"
     },
     {
       "id": "TY01-183",
@@ -4212,8 +4394,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-183.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-183.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-183.webp"
     },
     {
       "id": "TY01-184",
@@ -4235,8 +4418,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-184.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-184.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-184.webp"
     },
     {
       "id": "TY01-185",
@@ -4258,8 +4442,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-185.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-185.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-185.webp"
     },
     {
       "id": "TY01-186",
@@ -4281,8 +4466,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-186.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-186.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-186.webp"
     },
     {
       "id": "TY01-187",
@@ -4304,8 +4490,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-187.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-187.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-187.webp"
     },
     {
       "id": "TY01-188",
@@ -4327,8 +4514,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-188.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-188.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-188.webp"
     },
     {
       "id": "TY01-189",
@@ -4350,8 +4538,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-189.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-189.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-189.webp"
     },
     {
       "id": "TY01-190",
@@ -4373,8 +4562,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-190.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-190.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-190.webp"
     },
     {
       "id": "TY01-191",
@@ -4396,8 +4586,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-191.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-191.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-191.webp"
     },
     {
       "id": "TY01-192",
@@ -4419,8 +4610,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 1,
-      "image": "assets/cards/TY01-192.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-192.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-192.webp"
     },
     {
       "id": "TY01-193",
@@ -4442,8 +4634,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-193.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-193.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-193.webp"
     },
     {
       "id": "TY01-194",
@@ -4465,8 +4658,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-194.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-194.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-194.webp"
     },
     {
       "id": "TY01-195",
@@ -4488,8 +4682,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-195.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-195.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-195.webp"
     },
     {
       "id": "TY01-196",
@@ -4511,8 +4706,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-196.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-196.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-196.webp"
     },
     {
       "id": "TY01-197",
@@ -4534,8 +4730,9 @@
       "trialCount": 3,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-197.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-197.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-197.webp"
     },
     {
       "id": "TY01-198",
@@ -4557,8 +4754,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-198.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-198.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-198.webp"
     },
     {
       "id": "TY01-199",
@@ -4580,8 +4778,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-199.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-199.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-199.webp"
     },
     {
       "id": "TY01-200",
@@ -4603,8 +4802,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-200.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-200.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-200.webp"
     },
     {
       "id": "TY01-201",
@@ -4626,8 +4826,9 @@
       "trialCount": 0,
       "starterDeck": "预组魏",
       "starterCount": 1,
-      "image": "assets/cards/TY01-201.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-201.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-201.webp"
     },
     {
       "id": "TY01-202",
@@ -4649,8 +4850,9 @@
       "trialCount": 1,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-202.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-202.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-202.webp"
     },
     {
       "id": "TY01-203",
@@ -4672,8 +4874,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-203.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-203.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-203.webp"
     },
     {
       "id": "TY01-204",
@@ -4695,8 +4898,9 @@
       "trialCount": 0,
       "starterDeck": "预组蜀",
       "starterCount": 1,
-      "image": "assets/cards/TY01-204.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-204.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-204.webp"
     },
     {
       "id": "TY01-205",
@@ -4718,8 +4922,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-205.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-205.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-205.webp"
     },
     {
       "id": "TY01-206",
@@ -4741,8 +4946,9 @@
       "trialCount": 1,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-206.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-206.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-206.webp"
     },
     {
       "id": "TY01-207",
@@ -4764,8 +4970,9 @@
       "trialCount": 1,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-207.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-207.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-207.webp"
     },
     {
       "id": "TY01-208",
@@ -4787,8 +4994,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-208.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-208.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-208.webp"
     },
     {
       "id": "TY01-209",
@@ -4810,8 +5018,9 @@
       "trialCount": 0,
       "starterDeck": "预组吴",
       "starterCount": 1,
-      "image": "assets/cards/TY01-209.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-209.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-209.webp"
     },
     {
       "id": "TY01-210",
@@ -4833,8 +5042,9 @@
       "trialCount": 1,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-210.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-210.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-210.webp"
     },
     {
       "id": "TY01-211",
@@ -4856,8 +5066,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-211.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-211.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-211.webp"
     },
     {
       "id": "TY01-212",
@@ -4879,8 +5090,9 @@
       "trialCount": 0,
       "starterDeck": "预组群",
       "starterCount": 1,
-      "image": "assets/cards/TY01-212.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-212.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-212.webp"
     },
     {
       "id": "TY01-213",
@@ -4902,8 +5114,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-213.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-213.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-213.webp"
     },
     {
       "id": "TY01-214",
@@ -4925,8 +5138,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-214.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-214.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-214.webp"
     },
     {
       "id": "TY01-215",
@@ -4948,8 +5162,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-215.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-215.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-215.webp"
     },
     {
       "id": "TY01-216",
@@ -4971,8 +5186,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-216.png",
-      "imageKind": "普"
+      "image": "assets/cards/webp/TY01-216.webp",
+      "imageKind": "普",
+      "thumb": "assets/cards/thumbs/TY01-216.webp"
     },
     {
       "id": "TY01-217",
@@ -4994,8 +5210,9 @@
       "trialCount": 0,
       "starterDeck": "",
       "starterCount": 0,
-      "image": "assets/cards/TY01-217.png",
-      "imageKind": "闪"
+      "image": "assets/cards/webp/TY01-217.webp",
+      "imageKind": "闪",
+      "thumb": "assets/cards/thumbs/TY01-217.webp"
     }
   ],
   "extras": []
